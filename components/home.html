@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Made in China - Home</title>
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="icon" type="image/x-icon" href="../assets/logo/logo.ico">
+</head>
+<body class="home-container">
+    <div class="navbar">
+        <nav>
+            <ul>	
+                <div class="nav-item logo-btns">
+                    <div class="nav-item logo-btn"><li><a href="Home.html"><img id="logo" src="../assets/logo/logo.ico" alt="" ></a></li></div>	
+                </div>	
+                <div class="nav-item option-btns">
+                    <div class="nav-item home-btn"><li><a href="home.html"><button id="btn" class="actbtn">Home</button></a></li></div>
+                    <div class="nav-item culture-btn"><li><a href="culture.html"><button id="btn">Culture</button></a></li></div>
+                    <div class="nav-item food-btn"><li><a href="food.html"><button id="btn">Food</button></a></li></div>
+                    <div class="nav-item tourism-btn"><li><a href="tourism.html"><button id="btn">Tourism</button></a></li></div>
+                    <div class="nav-item history-btn"><li><a href="history.html"><button id="btn">History</button></a></li></div>
+
+                    <div class="navbar-dropdown">
+                        <li>
+                            <button onclick="navDropDownFunc()" class="navDropDownBtn" title="Click for more options." id="btn">More</button>
+                            <ul id="navDropDown" class="navDropDown-list">
+                                <div class="nav-item economy-btn"><li><a href="economy.html"><button id="dropdownbtn">Economy</button></a></li></div>
+                                <div class="nav-item technology-btn"><li><a href="technology.html"><button id="dropdownbtn">Technology</button></a></li></div>
+                                <div class="nav-item festivals-btn"><li><a href="festivals.html"><button id="dropdownbtn">Festivals</button></a></li></div>
+                                <div class="nav-item geography-btn"><li><a href="geography.html"><button id="dropdownbtn">Geography</button></a></li></div>
+                                <div class="nav-item contact-btn"><li><a href="contact.html"><button id="dropdownbtn">Contact</button></a></li></div>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <div class="home-innerbody">
+        <div class="home-chinaflag"><img src="../assets/flag.png" alt="" id="home-chinaflag"></div>
+    </div>
+    <script src="../js/dropdown.js" type="text/javascript"></script> 
+</body>
+</html>
+

@@ -1,0 +1,116 @@
+.logo-btn{
+    width: 2rem;
+}
+.nav-item{
+    display: inline-block;
+}
+.option-btns{
+    float:right;
+    margin-right: 3%;
+}
+.logo-btns{
+    margin-left: 3%;
+    margin-right: 5rem;
+}
+#logo{
+    max-height: 6rem !important;
+    max-width: 6rem !important;
+    margin: .2rem 0 -.8rem 0;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar .nav-item .nav-item ul li{
+    display: inline-block;
+}
+.navbar{
+    padding: .5rem 0 1rem 0; 
+    background-color: rgb(121, 57, 57);
+    overflow: hidden;
+}
+#btn{
+    max-width: 100% !important;
+    max-height: 100% !important;
+    border-radius: .8rem;
+    border: #ffffff 1px solid;
+    box-shadow: 1px 1px 2px #ffffff;
+    padding: .8rem 2rem;
+    background-color: rgb(121, 57, 57);
+    color: #ffffff;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    margin: 10% 0% 0 0;
+    /* width: 7vw; */
+}
+#btn:hover{
+    background-color: #ee171f;
+    cursor: pointer;
+}
+
+/*  START OF DROPDOWN LISTING  */
+#dropdownbtn{
+    max-width: 100% !important;
+    max-height: 100% !important;
+    border: #ffffff 1px solid; 
+    padding: .7rem .2rem;
+    background-color: rgb(121, 57, 57);
+    color: #ffffff;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    width: 6rem;
+}
+#dropdownbtn:hover{
+    background-color: #ee171f;
+    cursor: pointer;
+}
+.navbar-dropdown {
+    margin: 1.5rem 0rem;
+    display: inline-block;
+    z-index: 1100;
+}
+.actbtn{
+    background-color: #ee171e8c !important;
+}
+.navDropDownBtn:hover {
+    cursor: pointer;
+}
+
+.navDropDown-list {
+    display: none;
+    position: absolute;
+    z-index: 1200;
+}
+
+.navDropDown-list a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#navDropDown.show {
+    display: block;
+}
+/*  END OF DROPDOWN LISTING  */
+
+/* START OF SHRINK NAVBAR*/
+@media screen and (max-width: 1000px) {
+    .topnavresponsive a.icon {
+        position: relative;
+        right: 0;
+    }
+    .topnavresponsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .topnavresponsive .navbar-dropdown {
+        margin: 0rem 0rem;
+    }
+    .topnavresponsive #logo {
+        margin: 0rem 0rem;
+    }
+  }
+
+
+/* END OF SHRINK NAVBAR */
