@@ -7,7 +7,82 @@
     max-height: 100% !important;
     max-width: 100% !important;
 }
-#home-chinaflag{
-    width: 50vh;
-    margin: 1rem;
+.chinaflag{
+    width: 28%;
+    margin: 3rem 1rem 1rem 8%; /*T R B L*/
+    float: left;
+}
+.home-content-1{
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: 40%;
+    float: right;
+    margin: 3rem 8% 1rem 1rem; /*T R B L*/
+}
+.home-content-1 h1{
+    font-size: 2vw;
+}
+.home-content-1 p{
+    font-size: 1.1vw;
+    text-align: justify;
+}
+.home-content-2{
+    float: left;
+    width: 38%;
+    margin: 4rem 1rem 1rem 8%; /*T R B L*/
+}
+.home-content-2 p{
+    padding-top: 1%;
+    font-size: 1.1vw;
+    text-align: justify;
+}
+.home-content-3{
+    margin: 4rem 8% 1rem 1rem; /*T R B L*/
+    float: right;
+    padding-bottom: 10%;
+}
+.home-content-3 h2{
+    text-align: center;
+    font-size: 1.7vw;
+}
+.home-content-3 li{
+    font-size: 1.7vw;
+}
+.image-slideshow{
+    max-width: 100% !important;
+    max-height: 100% !important;
+    position: relative;
+    border: rgb(121, 57, 57) 3px solid;
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: .5rem .3rem 0rem .3rem;
+}
+.slideshow1{
+    width: 40%;
+    margin: 3rem 8% 1rem 1rem; /*T R B L*/
+    float: right;
+}
+.slideshow2{
+    width: 38%;
+    margin: 3rem 1rem 1rem 8%; /*T R B L*/
+    float: left;
+}
+.image{
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+#img {
+    height: 90%;
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
 }
